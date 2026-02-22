@@ -1,4 +1,4 @@
-# 🚢 Titanic - Machine Learning from Disaster
+#  Titanic - Machine Learning from Disaster
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-Learning-orange?style=for-the-badge&logo=scikit-learn)
@@ -6,16 +6,15 @@
 
 A comprehensive binary classification project to predict passenger survival on the Titanic. This notebook covers the entire Data Science pipeline: from raw data exploration to advanced feature engineering and model optimization.
 
-## 🎯 Objective
+## Objective
 The goal is to predict whether a passenger survived or not based on features like age, gender, social class, and family size.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Data Manipulation:** Pandas, NumPy
 - **Visualization:** Matplotlib, Seaborn
 - **Machine Learning:** Scikit-Learn
-- **Model Used:** Random Forest Classifier (or your specific model)
 
-## 🔍 Project Pipeline
+##  Project Pipeline
 
 ### 1. Exploratory Data Analysis (EDA)
 - Analyzed survival rates based on **Sex** (Female survival rate was significantly higher).
@@ -33,21 +32,16 @@ The goal is to predict whether a passenger survived or not based on features lik
 The project utilizes a **Random Forest Classifier**, tuned to handle the nonlinear relationships in the data.
 
 **Results:**
-- **Accuracy:** ~80-83% (Verify based on your last run).
-- **Evaluation Metrics:** Confusion Matrix, Precision, and Recall.
+- **Accuracy:** 0.78 F-Score .
+- **Evaluation Metrics:** Confusion Matrix, Precision, F-Score and Recall.
 
 
-
-[Image of Machine Learning Pipeline]
-
-
-## 📈 Key Insights
+##  Key Insights
 - **Gender** was the strongest predictor of survival.
 - Passengers in **First Class (Pclass 1)** had a much higher chance of survival.
 - Smaller families had better survival rates compared to individuals traveling alone or with very large families.
 
 ---
-## 👨‍💻 Author
+##  Author
 **Seif Eldeen Hassan**
-* AI & Data Science Student at FCAI, Cairo University.
-* Founder & CEO of Baddel.
+
